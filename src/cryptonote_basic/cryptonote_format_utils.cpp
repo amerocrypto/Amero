@@ -990,7 +990,7 @@ namespace cryptonote
     switch (decimal_point)
     {
       case 12:
-        return "monero";
+        return "amero";
       case 9:
         return "millinero";
       case 6:

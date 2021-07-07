@@ -5673,7 +5673,7 @@ WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="168"/>
-        <source>The newly created transaction will not be relayed to the monero network</source>
+        <source>The newly created transaction will not be relayed to the amero network</source>
         <translation>新しい取引をネットワークに中継しません</translation>
     </message>
     <message>

@@ -5728,7 +5728,7 @@ ATTENTION : Ne réutilisez pas vos clés Monero avec un autre fork, À MOINS QUE
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="168"/>
-        <source>The newly created transaction will not be relayed to the monero network</source>
+        <source>The newly created transaction will not be relayed to the amero network</source>
         <translation>La transaction nouvellement créée ne sera pas transmise au réseau monero</translation>
     </message>
     <message>
