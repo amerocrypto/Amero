@@ -212,7 +212,7 @@ Clone recursively to pull-in needed submodule(s):
 
 If you already have a repo cloned, initialize and update:
 
-`$ cd monero && git submodule init && git submodule update`
+`$ cd amero && git submodule init && git submodule update`
 
 *Note*: If there are submodule differences between branches, you may need 
 to use ```git submodule sync && git submodule update``` after changing branches
@@ -229,7 +229,7 @@ invokes cmake commands as needed.
 * Change to the root of the source code directory, change to the most recent release branch, and build:
 
     ```bash
-    cd monero
+    cd amero
     git checkout release-v0.17
     make
     ```
@@ -308,7 +308,7 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 
     ```bash
     git clone https://github.com/monero-project/monero.git
-    cd monero
+    cd amero
     git checkout tags/v0.17.1.0
     ```
 
@@ -425,7 +425,7 @@ application.
 * Change to the cloned directory, run:
 
     ```bash
-    cd monero
+    cd amero
     ```
 
 * If you would like a specific [version/tag](https://github.com/monero-project/monero/tags), do a git checkout for that version. eg. 'v0.17.1.0'. If you don't care about the version and just want binaries from master, skip this step:

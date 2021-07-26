@@ -1,4 +1,4 @@
-# Copyright (c) 2014-2020, The Monero Project
+# Copyright (c) 2014, 2020-2021 The Amero / Monero Projects
 #
 # All rights reserved.
 #
@@ -63,15 +63,15 @@ if (USE_COMPILATION_TIME_PROFILER)
 endif()
 
 if (${CMAKE_VERSION} VERSION_GREATER "3.0.0" AND CMAKE_MAKE_PROGRAM MATCHES "ninja")
-  set(MONERO_PARALLEL_COMPILE_JOBS "" CACHE STRING "The maximum number of concurrent compilation jobs.")
-  if (MONERO_PARALLEL_COMPILE_JOBS)
-    set_property(GLOBAL APPEND PROPERTY JOB_POOLS compile_job_pool=${MONERO_PARALLEL_COMPILE_JOBS})
+  set(AMERO_PARALLEL_COMPILE_JOBS "" CACHE STRING "The maximum number of concurrent compilation jobs.")
+  if (AMERO_PARALLEL_COMPILE_JOBS)
+    set_property(GLOBAL APPEND PROPERTY JOB_POOLS compile_job_pool=${AMERO_PARALLEL_COMPILE_JOBS})
     set(CMAKE_JOB_POOL_COMPILE compile_job_pool)
   endif ()
 
-  set(MONERO_PARALLEL_LINK_JOBS "" CACHE STRING "The maximum number of concurrent link jobs.")
-  if (MONERO_PARALLEL_LINK_JOBS)
-    set_property(GLOBAL APPEND PROPERTY JOB_POOLS link_job_pool=${MONERO_PARALLEL_LINK_JOBS})
+  set(AMERO_PARALLEL_LINK_JOBS "" CACHE STRING "The maximum number of concurrent link jobs.")
+  if (AMERO_PARALLEL_LINK_JOBS)
+    set_property(GLOBAL APPEND PROPERTY JOB_POOLS link_job_pool=${AMERO_PARALLEL_LINK_JOBS})
     set(CMAKE_JOB_POOL_LINK link_job_pool)
   endif ()
 endif ()

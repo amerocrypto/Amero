@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2020, The Monero Project
+// Copyright (c) 2014, 2020-2021 The Amero / Monero Projects
 //
 // All rights reserved.
 //
@@ -835,6 +835,10 @@ bool WalletImpl::setPassword(const std::string &password)
     }
     return status() == Status_Ok;
 }
+const std::string& WalletImpl::getPassword() const
+{
+    return m_password;
+}
 
 bool WalletImpl::setDevicePin(const std::string &pin)
 {
@@ -1175,7 +1179,7 @@ bool WalletImpl::exportKeyImages(const string &filename, bool all)
   
   try
   {
-    if (!m_wallet->export_key_images(filename), all)
+      if (!m_wallet->export_key_images(filename, all))
     {
       setStatusError(tr("failed to save file ") + filename);
       return false;
