@@ -1,6 +1,6 @@
 # Amero
 
-Copyright (c) 2014-2021 The Amero Project.   
+Copyright (c) 2014-2021 The Amero / Monero Projects.   
 Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Table of Contents
@@ -28,9 +28,9 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- Web: [getamero.org](https://getamero.org)
-- Forum: [forum.getamero.org](https://forum.getamero.org)
-- Mail: [dev@getamero.org](mailto:dev@getamero.org)
+- Web: [amerocrypto.com](https://amerocrypto.com)
+- Forum: [forum.amerocrypto.com](https://forum.amerocrypto.com)
+- Mail: [dev@amerocrypto.com](mailto:dev@amerocrypto.com)
 - GitHub: [https://github.com/amero-project/amero](https://github.com/amero-project/amero)
 - IRC: [#amero-dev on Libera](https://web.libera.chat/#amero-dev)
 - It is HIGHLY recommended that you join the #amero-dev IRC channel if you are developing software that uses Amero. Due to the nature of this open source software project, joining this channel and idling is the best way to stay updated on best practices and new developments in the Amero ecosystem. All you need to do is join the IRC channel and idle to stay updated with the latest in Amero development. If you do not, you risk wasting resources on developing integrations that are not compatible with the Amero network. The Amero core team and community continuously make efforts to communicate updates, developments, and documentation via other platforms – but for the best information, you need to talk to other Amero developers, and they are on IRC. #amero-dev is about Amero development, not getting help about using Amero, or help about development of other software, including yours, unless it also pertains to Amero code itself. For these cases, checkout #amero. 
@@ -42,19 +42,19 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Research
 
-The [Amero Research Lab](https://src.getamero.org/resources/research-lab/) is an open forum where the community coordinates research into Amero cryptography, protocols, fungibility, analysis, and more. We welcome collaboration and contributions from outside researchers! Because not all Lab work and publications are distributed as traditional preprints or articles, they may be easy to miss if you are conducting literature reviews for your own Amero research. You are encouraged to get in touch with our researchers if you have questions, wish to collaborate, or would like guidance to help avoid unnecessarily duplicating earlier or known work.
+The [Amero Research Lab](https://src.amerocrypto.com/resources/research-lab/) is an open forum where the community coordinates research into Amero cryptography, protocols, fungibility, analysis, and more. We welcome collaboration and contributions from outside researchers! Because not all Lab work and publications are distributed as traditional preprints or articles, they may be easy to miss if you are conducting literature reviews for your own Amero research. You are encouraged to get in touch with our researchers if you have questions, wish to collaborate, or would like guidance to help avoid unnecessarily duplicating earlier or known work.
 
 Our researchers are available on IRC in [#amero-research-lab on Libera](https://web.libera.chat/#amero-research-lab) or by email:
 
-- Sarang Noether, Ph.D.: [sarang@getamero.org](mailto:sarang@getamero.org) or [sarang.noether@protonmail.com](mailto:sarang.noether@protonmail.com); [research repository](https://github.com/SarangNoether/research-lab)
-- Surae Noether (Brandon Goodell), Ph.D.: [surae@getamero.org](mailto:surae@getamero.org) or [surae.noether@protonmail.com](mailto:surae.noether@protonmail.com); [research repository](https://github.com/b-g-goodell/research-lab)
+- Sarang Noether, Ph.D.: [sarang@amerocrypto.com](mailto:sarang@amerocrypto.com) or [sarang.noether@protonmail.com](mailto:sarang.noether@protonmail.com); [research repository](https://github.com/SarangNoether/research-lab)
+- Surae Noether (Brandon Goodell), Ph.D.: [surae@amerocrypto.com](mailto:surae@amerocrypto.com) or [surae.noether@protonmail.com](mailto:surae.noether@protonmail.com); [research repository](https://github.com/b-g-goodell/research-lab)
 
 ## Announcements
 
-- You can subscribe to an [announcement listserv](https://lists.getamero.org) to get critical announcements from the Amero core team. The announcement list can be very helpful for knowing when software updates are needed.
+- You can subscribe to an [announcement listserv](https://lists.amerocrypto.com) to get critical announcements from the Amero core team. The announcement list can be very helpful for knowing when software updates are needed.
 
 ## Translations
-The CLI wallet is available in different languages. If you want to help translate it, see our self-hosted localization platform, Weblate, on [translate.getamero.org]( https://translate.getamero.org/projects/amero/cli-wallet/). Every translation *must* be uploaded on the platform, pull requests directly editing the code in this repository will be closed. If you need help with Weblate, you can find a guide with screenshots [here](https://github.com/amero-ecosystem/amero-translations/blob/master/weblate.md).
+The CLI wallet is available in different languages. If you want to help translate it, see our self-hosted localization platform, Weblate, on [translate.amerocrypto.com]( https://translate.amerocrypto.com/projects/amero/cli-wallet/). Every translation *must* be uploaded on the platform, pull requests directly editing the code in this repository will be closed. If you need help with Weblate, you can find a guide with screenshots [here](https://github.com/amero-ecosystem/amero-translations/blob/master/weblate.md).
 &nbsp;
 
 If you need help/support/info about translations, contact the localization workgroup. You can find the complete list of contacts on the repository of the workgroup: [amero-translations](https://github.com/amero-ecosystem/amero-translations#contacts).
@@ -90,19 +90,19 @@ As with many development projects, the repository on Github is considered to be 
 
 ## Supporting the project
 
-Amero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Amero and Bitcoin donations can be made to **donate.getamero.org** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively, you can send XMR to the Amero donation address via the `donate` command (type `help` in the command-line wallet for details).
+Amero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Amero and Bitcoin donations can be made to **donate.amerocrypto.com** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively, you can send XMR to the Amero donation address via the `donate` command (type `help` in the command-line wallet for details).
 
 The Amero donation address is: `888tNkZrPN6JsEgekjMnABU4TBzc2Dt29EPAvkRxbANsAnjyPbb3iQ1YBRk1UXcdRsiKc9dhwMVgN5S9cQUiyoogDavup3H` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`; base address for restoring with address and viewkey: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A`)
 
 The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
 
-Core development funding and/or some supporting services are also graciously provided by [sponsors](https://www.getamero.org/community/sponsorships/):
+Core development funding and/or some supporting services are also graciously provided by [sponsors](https://www.amerocrypto.com/community/sponsorships/):
 
-[<img width="150" src="https://www.getamero.org/img/sponsors/tarilabs.png"/>](https://tarilabs.com/)
-[<img width="150" src="https://www.getamero.org/img/sponsors/globee.png"/>](https://globee.com/)
-[<img width="150" src="https://www.getamero.org/img/sponsors/symas.png"/>](https://symas.com/)
-[<img width="150" src="https://www.getamero.org/img/sponsors/forked_logo.png"/>](http://www.forked.net/)
-[<img width="150" src="https://www.getamero.org/img/sponsors/macstadium.png"/>](https://www.macstadium.com/)
+[<img width="150" src="https://www.amerocrypto.com/img/sponsors/tarilabs.png"/>](https://tarilabs.com/)
+[<img width="150" src="https://www.amerocrypto.com/img/sponsors/globee.png"/>](https://globee.com/)
+[<img width="150" src="https://www.amerocrypto.com/img/sponsors/symas.png"/>](https://symas.com/)
+[<img width="150" src="https://www.amerocrypto.com/img/sponsors/forked_logo.png"/>](http://www.forked.net/)
+[<img width="150" src="https://www.amerocrypto.com/img/sponsors/macstadium.png"/>](https://www.macstadium.com/)
 
 There are also several mining pools that kindly donate a portion of their fees, [a list of them can be found on our Bitcointalk post](https://bitcointalk.org/index.php?topic=583449.0).
 
@@ -729,7 +729,7 @@ to prune an existing blockchain using the `amero-blockchain-prune` tool or using
 with an existing chain. If an existing chain exists, pruning will temporarily require disk space to store both the full
 and pruned blockchains.
 
-For more detailed information see the ['Pruning' entry in the Ameropedia](https://www.getamero.org/resources/ameropedia/pruning.html)
+For more detailed information see the ['Pruning' entry in the Ameropedia](https://www.amerocrypto.com/resources/ameropedia/pruning.html)
 
 ## Debugging
 
