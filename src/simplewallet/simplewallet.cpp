@@ -2709,12 +2709,8 @@ bool simple_wallet::set_unit(const std::vector<std::string> &args/* = std::vecto
 
   if (unit == "amero")
     decimal_point = CRYPTONOTE_DISPLAY_DECIMAL_POINT;
-  else if (unit == "maero")
-    decimal_point = CRYPTONOTE_DISPLAY_DECIMAL_POINT - 3;
   else if (unit == "aero")
-    decimal_point = CRYPTONOTE_DISPLAY_DECIMAL_POINT - 6;
-  else if (unit == "naero")
-    decimal_point = CRYPTONOTE_DISPLAY_DECIMAL_POINT - 9;
+    decimal_point = CRYPTONOTE_DISPLAY_DECIMAL_POINT - 8;
   else if (unit == "ciaero")
     decimal_point = 0;
   else
@@ -3438,7 +3434,7 @@ simple_wallet::simple_wallet()
                                   "ask-password <0|1|2   (or never|action|decrypt)>\n "
                                   "  action: ask the password before many actions such as transfer, etc\n "
                                   "  decrypt: same as action, but keeps the spend key encrypted in memory when not needed\n "
-                                  "unit <amero|maero|aero|naero|ciaero>\n "
+                                  "unit <amero|aero|ciaero>\n "
                                   "  Set the default amero (sub-)unit.\n "
                                   "min-outputs-count [n]\n "
                                   "  Try to keep at least that many outputs of value at least min-outputs-value.\n "

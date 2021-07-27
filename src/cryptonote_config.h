@@ -36,7 +36,7 @@
 
 #define CRYPTONOTE_DNS_TIMEOUT_MS                       20000
 
-#define CRYPTONOTE_MAX_BLOCK_NUMBER                     525735
+#define CRYPTONOTE_MAX_BLOCK_NUMBER                     911069
 #define CRYPTONOTE_MAX_TX_SIZE                          1000000
 #define CRYPTONOTE_MAX_TX_PER_BLOCK                     0x10000000
 #define CRYPTONOTE_PUBLIC_ADDRESS_TEXTBLOB_VER          0
@@ -61,14 +61,14 @@
 #define CRYPTONOTE_LONG_TERM_BLOCK_WEIGHT_WINDOW_SIZE   100000 // size in blocks of the long term block weight median window
 #define CRYPTONOTE_SHORT_TERM_BLOCK_WEIGHT_SURGE_FACTOR 50
 #define CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE          600
-#define CRYPTONOTE_DISPLAY_DECIMAL_POINT                9
+#define CRYPTONOTE_DISPLAY_DECIMAL_POINT                8
 // COIN - number of smallest units in one coin
 #define COIN                                            ((uint64_t)1000000000000) // pow(10, 12)
 
 #define FEE_PER_KB_OLD                                  ((uint64_t)10000000000) // pow(10, 10)
-#define FEE_PER_KB                                      ((uint64_t)2000000000) // 2 * pow(10, 9)
+#define FEE_PER_KB                                      ((uint64_t)200000000) // 2 * pow(10, 9)
 #define FEE_PER_BYTE                                    ((uint64_t)300000)
-#define DYNAMIC_FEE_PER_KB_BASE_FEE                     ((uint64_t)2000000000) // 2 * pow(10,9)
+#define DYNAMIC_FEE_PER_KB_BASE_FEE                     ((uint64_t)200000000) // 2 * pow(10,9)
 #define DYNAMIC_FEE_PER_KB_BASE_BLOCK_REWARD            ((uint64_t)10000000000000) // 10 * pow(10,12)
 #define DYNAMIC_FEE_PER_KB_BASE_FEE_V5                  ((uint64_t)2000000000 * (uint64_t)CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2 / CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V5)
 #define DYNAMIC_FEE_REFERENCE_TRANSACTION_WEIGHT         ((uint64_t)3000)
@@ -77,7 +77,7 @@
 
 
 #define DIFFICULTY_TARGET_V2                            66  // seconds
-#define DIFFICULTY_TARGET_V1                            66  // seconds - before first fork
+#define DIFFICULTY_TARGET_V1                            66  // seconds
 #define DIFFICULTY_WINDOW                               1776 // blocks
 #define DIFFICULTY_LAG                                  24  // !!!
 #define DIFFICULTY_CUT                                  60  // timestamps to cut after sorting
@@ -124,8 +124,8 @@
 
 #define CRYPTONOTE_MAX_FRAGMENTS                        20 // ~20 * NOISE_BYTES max payload size for covert/noise send
 
-#define COMMAND_RPC_GET_BLOCKS_FAST_MAX_BLOCK_COUNT     30000
-#define COMMAND_RPC_GET_BLOCKS_FAST_MAX_TX_COUNT        300000
+#define COMMAND_RPC_GET_BLOCKS_FAST_MAX_BLOCK_COUNT     2500
+#define COMMAND_RPC_GET_BLOCKS_FAST_MAX_TX_COUNT        50000
 
 #define P2P_LOCAL_WHITE_PEERLIST_LIMIT                  1000
 #define P2P_LOCAL_GRAY_PEERLIST_LIMIT                   5000
@@ -217,7 +217,7 @@ namespace config
       0x0C ,0x13, 0x41, 0x4D , 0x45, 0x52 , 0x4F, 0x33, 0x39, 0x36, 0x32, 0x33, 0x00, 0x0E, 0x15, 0x1F
     } }; // Bender's nightmare
   std::string const GENESIS_TX = "";
-  uint32_t const GENESIS_NONCE = 10000;
+  uint32_t const GENESIS_NONCE = 404;
 
   // Hash domain separators
   const char HASH_KEY_BULLETPROOF_EXPONENT[] = "bulletproof";
@@ -248,7 +248,7 @@ namespace config
         0x11 ,0x12, 0x13, 0x14 , 0x1F, 0x15 , 0x16, 0x17, 0x17, 0x31, 0x0E, 0x82, 0x16, 0x12, 0xA1, 0x11
       } }; 
     std::string const GENESIS_TX = "";
-    uint32_t const GENESIS_NONCE = 10001;
+    uint32_t const GENESIS_NONCE = 405;
   }
 
   namespace stagenet
@@ -263,7 +263,7 @@ namespace config
         0x12 ,0xF2, 0xF1, 0x71 , 0x15, 0x04 , 0x41, 0x14, 0x17, 0x12, 0x00, 0x33, 0x16, 0xA1, 0xA1, 0x0E
       } }; 
     std::string const GENESIS_TX = "";
-    uint32_t const GENESIS_NONCE = 10002;
+    uint32_t const GENESIS_NONCE = 406;
   }
 }
 
