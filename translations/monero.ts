@@ -2007,7 +2007,7 @@ Key Image, &quot;absolute&quot;, list of rings</source>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3694"/>
-        <source>amero, maero, aero, naero, ciaero</source>
+        <source>amero, aero, ciaero</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2616,8 +2616,8 @@ your wallet again (your wallet keys are NOT at risk in any case).
  ask-password &lt;0|1|2   (or never|action|decrypt)&gt;
    action: ask the password before many actions such as transfer, etc
    decrypt: same as action, but keeps the spend key encrypted in memory when not needed
- unit &lt;amero|maero|aero|naero|ciaero&gt;
-   Set the default monero (sub-)unit.
+ unit &lt;amero|aero|ciaero&gt;
+   Set the default amero (sub-)unit.
  min-outputs-count [n]
    Try to keep at least that many outputs of value at least min-outputs-value.
  min-outputs-value [n]

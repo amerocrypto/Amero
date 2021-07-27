@@ -90,7 +90,7 @@ As with many development projects, the repository on Github is considered to be 
 
 ## Supporting the project
 
-Amero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Amero and Bitcoin donations can be made to **donate.amerocrypto.com** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively, you can send XMR to the Amero donation address via the `donate` command (type `help` in the command-line wallet for details).
+Amero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Amero and Bitcoin donations can be made to **donate.amerocrypto.com** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively, you can send AMX to the Amero donation address via the `donate` command (type `help` in the command-line wallet for details).
 
 The Amero donation address is: `888tNkZrPN6JsEgekjMnABU4TBzc2Dt29EPAvkRxbANsAnjyPbb3iQ1YBRk1UXcdRsiKc9dhwMVgN5S9cQUiyoogDavup3H` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`; base address for restoring with address and viewkey: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A`)
 
