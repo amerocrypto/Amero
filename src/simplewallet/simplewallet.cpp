@@ -2710,7 +2710,7 @@ bool simple_wallet::set_unit(const std::vector<std::string> &args/* = std::vecto
   if (unit == "amero")
     decimal_point = CRYPTONOTE_DISPLAY_DECIMAL_POINT;
   else if (unit == "aero")
-    decimal_point = CRYPTONOTE_DISPLAY_DECIMAL_POINT - 8;
+    decimal_point = CRYPTONOTE_DISPLAY_DECIMAL_POINT - 9;
   else if (unit == "ciaero")
     decimal_point = 0;
   else
