@@ -76,10 +76,10 @@
 #define ORPHANED_BLOCKS_MAX_COUNT                       100
 
 
-#define DIFFICULTY_TARGET_V2                            66  // seconds
-#define DIFFICULTY_TARGET_V1                            66  // seconds
+#define DIFFICULTY_TARGET_V2                            60  // seconds
+#define DIFFICULTY_TARGET_V1                            60  // seconds
 #define DIFFICULTY_WINDOW                               1776 // blocks
-#define DIFFICULTY_LAG                                  24  // !!!
+#define DIFFICULTY_LAG                                  20  // !!!
 #define DIFFICULTY_CUT                                  60  // timestamps to cut after sorting
 #define DIFFICULTY_BLOCKS_COUNT                         DIFFICULTY_WINDOW + DIFFICULTY_LAG
 
